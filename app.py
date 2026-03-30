@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from scipy.optimize import linear_sum_assignment
 import time
 
-st.set_page_config(page_title="HANEUL: 예외대응 관제 시스템", layout="wide")
+st.set_page_config(page_title="YULfactory: 예외대응 관제 시스템", layout="wide")
 
 # --- [1. DB 및 프로필 관리 (소프트웨어학과: API/DB 모사)] ---
 if 'workers' not in st.session_state:
